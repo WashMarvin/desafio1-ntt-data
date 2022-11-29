@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1</title>
+</head>
+<body>
+    <!---
+        Estrutura básica do HTML
+        Tags
+        Atributos básicos
+        Listas ordenadas e não ordenadas
+        Links
+    -->
+    <!-- Índice -->
+    <h1 id="inicio">Estudo das Estruturas do HTML</h1>
+    <hr>
+    <ul>
+        <li><a href="#estrutura-html">Estrutura básica do HTML</a></li>
+        <li><a href="#tag">Tags</a></li>
+        <li><a href="#atributos">Atributos</a></li>
+        <li><a href="#listas">Listas</a></li>
+        <li><a href="#links">Links</a></li>
+    </ul>
+
+    <!--Estrutura-->
+    <h2 id="estrutura-html">Estrutura Básica do HTML</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p><strong>HTML</strong> significa <mark>Hypertext markup language.</mark> Em tradução para o português, <i>Linguagem de Marcação de Hipertexto.</i>
+       A primeira informação necessária é que HTML não é uma linguagem de programação e tem como finalidade é dar significado
+       e organizar as informações de um website. A marcação é utilizada para marcar textos, imagens e diversos contéudos para
+       exibi-los em um navegador. O hipertexto está ligado aos links de conexão entre páginas web dentro de um único site ou entre sites.
+    </p>
+    <h2 id="doctype">Doctype</h2>
+    <p>
+        O <strong>Doctype</strong> é uma instrução a ser compreendida pelo navegador informando-o que o código encontrado ali é HTML.
+        O Doctype é obrigatório e é o primeiro a ser carregado no seu documento.
+    </p>
+    <h2 id="head">Head</h2>
+    <p>
+        Na tag <strong>Head</strong> as informações não são visualizadas pelo usuário. São dados implícitos de uso e controle do documento.
+        Onde residem metadados, vínculo com outros arquivos, aplicação de lógica e programação de scripts. Em resumo, 
+        todo o conteúdo de cabeçalho se encontram entre a abertura e fechamento desta tag.
+    </p>
+    <h2 id="body">body</h2>
+    <p>
+    Aqui residem as informações visíveis para o usuário. Todo conteúdo que se deseja apresentar, como textos, mídias, imagens, etc.
+    O corpo de documento é delimitado pelo par de tag body. 
+    Dentro do <strong>body</strong>, a estrutura da página deverá possuir os elementos semânticos em que serão declarados cabeçalhos, conteúdo, rodapé, entre outros.
+    </p>
+
+    <!--Tags-->
+    <h2 id="tag">Tags</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        É um conjunto de caracteres que tem como função formar um elemeto. Existem dois tipos de <strong>tags</strong>, as que necessitam de fechamento
+        e as que não necessitam. 
+    </p>
+    <h3 id="elementos">Elementos</h3>
+    <p>
+        Elementos são formados a partir de tags. Entre essas tags há o conteúdo do elemento. As tags servem para marcar onde começam e terminam 
+        os elementos, o elemento é uma parte semântica que tem começo e fim determinados.
+    </p>
+
+    <!--Atributos-->
+    <h2 id="atributos">Atributos</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        São informações que passamos nas tags para que ela se comporte da maneira desejada. Existem <strong>atributos</strong> globais (que funcionam em todas as tags)
+        e específicos (que são direcionados para cada tag, através de especificação).
+    </p>
+    <p>
+        Os atributos possuem nome e valor. Alguns você vai usar praticamente o tempo todo e outros que serão mais raros.
+    </p>
+    <h4>Exemplos de alguns atributos</h4>
+    <h5>accesskey</h5>
+    <p>
+        Determina uma ou mais teclas de atalho para o elemento.
+    </p>
+    <h5>class</h5>
+    <p>
+        Determina uma ou mais classes para o elemento. Para definir mais de uma classe, coloque-as separadas por espaço.
+    </p>
+    <h5>draggable</h5>
+    <p>
+        Define se um elemento é arrastável ou não.
+    </p>
+    <h5>hidden</h5>
+    <p>
+        Oculta o elemento onde for declarado.
+    </p>
+    <h5>id</h5>
+    <p>
+        É o identificador único do elemento. Somente deve ser declarado um id por elemento e este
+        não deve ser repetido na mesma página.
+    </p>
+
+    <!--Listas-->
+    <h2 id="listas">Listas</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        O HTML tem elementos especiais para <strong>listas</strong>. Consistem de dois elementos que podem ser ordenadas e não ordenadas.
+        Cada item dentro da lista é posto dentro de um elemento li. 
+    </p>
+    <h3><mark>Listas ordenadas</mark></h3>
+    <p>
+        São listas onde a ordem dos itens importa, como uma receita de bolo, por exemplo. Elas estão envolvidas 
+        em um elemento "ol".
+    </p>
+    <h3><mark>Listas não ordenadas</mark></h3>
+    <p>
+        São listas onde a ordem dos itens não importa, como uma lista de compras, por exemplo. Estão envolvidas pelo
+        elemento ul. 
+    </p>
+
+    <!--Links-->
+    <h2 id="links">Links</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        Os <strong>links</strong> determina a relação entre documentos internos e também externos. Este elemento é utilizado 
+        para vincular também as folhas de estilos.
+    </p>
+    <p>
+        Os links são definidos pela tag a e dentro desta tag incluimos o atributo href (<i>Hypertext Reference</i>), 
+        que é o endereço para o qual se destina o link. 
+    </p>
+    <hr>
+
+    <!-- Referencias-->
+    <h2>Referências</h2>
+    <p>
+        <i><a href="https://developer.mozilla.org/pt" target="_blank">Introdução à Web - HTML básico</a></i>
+
+    </p>
+</body>
+</html>
